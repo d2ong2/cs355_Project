@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+p{
+    margin: 10px;
+}
+
+ul {
+    font-size: 20px;
+    padding-left: 30px;
+}
+

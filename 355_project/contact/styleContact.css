@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+}
+
+.contract {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px, 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    background-size: cover;
+}
+
+.contract .content {
+    max-width: 800px;
+    text-align: center;
+}
+
+
+.contract .content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: black;
+}
+
+.contract .content p{
+    font-weight: 300;
+    color: black;
+}
+
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contractInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.container .contractInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    
+}
+
+.container .contractInfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .contractInfo .box .text {
+    display:  flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+.container .contractInfo .box .text h3 {
+    font-weight: 500;
+    color: #00bcd4;
+
+}
+
+.contactForm {
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+
+.contractForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.home{
+    padding:100px;
+}
